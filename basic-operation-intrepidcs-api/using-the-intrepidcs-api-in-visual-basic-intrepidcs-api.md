@@ -1,6 +1,6 @@
-# Using the intrepidcs API in Visual Basic - intrepidcs API
+# Using the intrepidcs API in Visual Basic - neoVI API
 
-To use the intrepidcs API in Visual Basic add the Download the file [`bas_neoVI.vb`](https://cdn.intrepidcs.net/guides/neoVIDLL/\_downloads/eff7ce57dd442e09675a9d786b865bb4/bas\_neoVI.zip) module into the VB project (figure 1) by right clicking on the Solution and selecting Add Existing Item from the Add menu. Open the bas\_neoVI.vb. Then, call the methods as defined in the [WIN32 API Functions and Types](../win32-api-overview-intrepidcs-api/) Section of this document.
+To use the neoVI API in Visual Basic add the Download the file [`bas_neoVI.vb`](https://cdn.intrepidcs.net/guides/neoVIDLL/\_downloads/eff7ce57dd442e09675a9d786b865bb4/bas\_neoVI.zip) module into the VB project (figure 1) by right clicking on the Solution and selecting Add Existing Item from the Add menu. Open the bas\_neoVI.vb. Then, call the methods as defined in the [WIN32 API Functions and Types](../win32-api-overview-intrepidcs-api/) Section of this document.
 
 ![Figure 1 - Add Module Command From the VB.NET Menu.](../.gitbook/assets/VBNetAddModule.gif)
 

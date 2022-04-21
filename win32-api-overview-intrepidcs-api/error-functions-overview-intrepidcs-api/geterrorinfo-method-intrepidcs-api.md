@@ -1,6 +1,6 @@
-# GetErrorInfo Method - intrepidcs API
+# GetErrorInfo Method - neoVI API
 
-This method returns a text description of an intrepidcs API error number.
+This method returns a text description of an neoVI API error number.
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}

@@ -1,9 +1,9 @@
 ---
-cover: ../../.gitbook/assets/ics-contact.png
+cover: ../../.gitbook/assets/new-cover-image.png
 coverY: 0
 ---
 
-# Message Functions Overview - intrepidcs API
+# Message Functions Overview - neoVI API
 
 | Name                                                                                  | Description                                                                                |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |

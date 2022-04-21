@@ -1,6 +1,6 @@
-# SetReflashDisplayCallbacks Method - intrepidcs API
+# SetReflashDisplayCallbacks Method - neoVI API
 
-**This method is used to set ‘call back’ functions that will be called by the intrepidcs API when flashing a neoVI device with the** [**ForceFirmwareUpdate**](forcefirmwareupdate-method-intrepidcs-api.md) **function. This overrides the Windows dialog box that normally displays the progress of a neoVI flash update. The use of call back functions allows the client application to receive the status messages and display them as desired.**
+**This method is used to set ‘call back’ functions that will be called by the neoVI API when flashing a neoVI device with the** [**ForceFirmwareUpdate**](forcefirmwareupdate-method-intrepidcs-api.md) **function. This overrides the Windows dialog box that normally displays the progress of a neoVI flash update. The use of call back functions allows the client application to receive the status messages and display them as desired.**
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}

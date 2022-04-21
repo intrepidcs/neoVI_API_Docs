@@ -1,6 +1,6 @@
-# Intrepid API Data Types
+# neoVI API Data Types
 
-Various data types defined or re-defined by the Intrepid API.
+Various data types defined or re-defined by the neoVI API.
 
 | Data Type     | Definition                                      |
 | ------------- | ----------------------------------------------- |

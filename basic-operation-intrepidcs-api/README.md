@@ -1,12 +1,10 @@
 ---
-description: >-
-  Working with the intrepidcs API, the folloing steps and functions will be
-  used.
+description: Working with the neoVI API, the folloing steps and functions will be used.
 cover: ../.gitbook/assets/new-cover-image.png
 coverY: 0
 ---
 
-# Basic Operation - IntrepidCS API
+# Basic Operation - neoVI API
 
 1. Start the application.
 2. Open the driver and find a neoVI or ValueCAN device.
