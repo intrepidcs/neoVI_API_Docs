@@ -1,4 +1,4 @@
-# Using the API in LabVIEW - intrepidcs API
+# Using the API in LabVIEW - neoVI API
 
 ### Overview
 
