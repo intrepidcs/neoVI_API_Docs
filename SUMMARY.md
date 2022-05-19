@@ -163,7 +163,6 @@
 * [J2534 Support - neoVI API](j2534-support-intrepidcs-api.md)
 * [Vehicle Spy Text API](vehicle-spy-text-api/README.md)
   * [ECU Object - Vehicle Spy Text API](vehicle-spy-text-api/ecu-object-vehicle-spy-text-api.md)
-  * [neoVI PRO UI - Vehicle Spy 3 Text API](vehicle-spy-text-api/neovi-pro-ui-vehicle-spy-3-text-api.md)
   * [Labview Text API Interface to Vehicle Spy 3](vehicle-spy-text-api/labview-text-api-interface-to-vehicle-spy-3.md)
 * [Vehicle Spy VSB file Spec](vehicle-spy-vsb-file-spec.md)
 
