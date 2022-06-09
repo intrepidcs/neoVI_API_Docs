@@ -3,7 +3,7 @@ cover: ../.gitbook/assets/new-cover-image.png
 coverY: 0
 ---
 
-# WIN32 API Overview - IntrepidCS API
+# WIN32 API Overview - neoVI API
 
 **Basic Operations**
 
