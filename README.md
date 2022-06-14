@@ -3,7 +3,7 @@ cover: .gitbook/assets/new-cover-image.png
 coverY: 0
 ---
 
-# The IntrepidCS API - Create your own software applications
+# The neoVI API - Create your own software applications
 
 **Overview**
 
@@ -11,7 +11,7 @@ The neoVI API provides a simple way to access the neoVI hardware with WIN32 deve
 
 Included with neoVI is the "icsneo40.dll" DLL. This DLL is a high performance multi-threaded DLL, capable of supporting many neoVI devices simultaneously. The DLL is through dynamic linkage.
 
-For applications using neoVI and ValueCAN devices which do not use Windows, a [Linux interface](http://intrepidcs.com/support/ICSDocumentation/neoAPILinux/LinuxFrameMain.htm) is available. Intrepid Control Systems also has a [Github page](https://github.com/intrepidcs/) with APIs and projects for a verity of different system configurations. Code here can be built to fit the needed system.
+For applications using neoVI and ValueCAN devices which do not use Windows, a [Linux interface](https://github.com/intrepidcs/libicsneo) is available. Intrepid Control Systems also has a [Github page](https://github.com/intrepidcs/) with APIs and projects for a verity of different system configurations. Code here can be built to fit the needed system.
 
 **Getting Started**
 
