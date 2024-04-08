@@ -1,4 +1,4 @@
-# Contact Information - Intrepid Control Systems, Inc.
+# Contact Information - Intrepid Control Systems, Inc
 
 ![](../.gitbook/assets/ics-contact.png)
 
@@ -12,10 +12,6 @@ Troy, MI 48083 USA
 
 (fax) 586.731.2274
 
-(email) [ICSContactUs@intrepidcs.com](mailto:ICSContactUs%40intrepidcs.com)
-
 (website) [www.intrepidcs.com](https://www.intrepidcs.com)
-
-
 
 {% embed url="https://www.youtube.com/watch?v=lFu3NTcagxk" %}
