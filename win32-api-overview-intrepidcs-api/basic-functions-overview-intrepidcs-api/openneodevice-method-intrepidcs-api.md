@@ -3,26 +3,26 @@ cover: ../../.gitbook/assets/new-cover-image.png
 coverY: 0
 ---
 
-# OpenNeoDevice Method - IntrepidCS API
+# OpenNeoDevice Method - neoVI API
 
 This method returns the neoVI hardware devices connected to the PC.
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
 ```cpp
-int _stdcall icsneoOpenNeoDevice(NeoDevice *pNeoDevice, void * hObject, unsigned char *bNetworkIDs, int bConfigRead, int bSyncToPC);
+int _stdcall icsneoOpenDevice(NeoDevice *pNeoDevice, void * hObject, unsigned char *bNetworkIDs, int bConfigRead, int bSyncToPC);
 ```
 {% endtab %}
 
 {% tab title="Visual Basic .NET Declare" %}
 ```vbnet
-Public Declare Function icsneoOpenNeoDevice Lib “icsneo40.dll” (ByRef pNeoDevice As NeoDevice, ByRef hObject As IntPtr, ByRef bNetworkIDs As Byte, ByVal bConfigRead As Int32, ByVal bSyncToPC As Int32) As Int32
+Public Declare Function icsneoOpenDevice Lib “icsneo40.dll” (ByRef pNeoDevice As NeoDevice, ByRef hObject As IntPtr, ByRef bNetworkIDs As Byte, ByVal bConfigRead As Int32, ByVal bSyncToPC As Int32) As Int32
 ```
 {% endtab %}
 
 {% tab title="C# Declare" %}
 ```csharp
-[DllImport(“icsneo40.dll”)] public static extern Int32 icsneoOpenNeoDevice(ref NeoDevice pNeoDevice, ref IntPtr hObject, ref byte bNetworkIDs, Int32 bConfigRead, Int32 bSyncToPC);
+[DllImport(“icsneo40.dll”)] public static extern Int32 icsneoOpenDevice(ref NeoDevice pNeoDevice, ref IntPtr hObject, ref byte bNetworkIDs, Int32 bConfigRead, Int32 bSyncToPC);
 ```
 {% endtab %}
 {% endtabs %}
@@ -39,7 +39,7 @@ hObject
 
 bNetworkIDs
 
-\[in] This is an array of number IDs which specify the NetworkID parameter of each network. This allows you to assign a custom network ID to each network. Normally, you will assign consecutive IDs to each of the networks. See [NetworkIDList](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neovi-network-id-list.md) for a list of current network ID’s. _ **You may also set this parameter to NULL (zero) and the default network ID’s will be used.**_
+\[in] This is an array of number IDs which specify the NetworkID parameter of each network. This allows you to assign a custom network ID to each network. Normally, you will assign consecutive IDs to each of the networks. See [NetworkIDList](../structures-types-and-defines-overview-intrepidcs-api/setting-structures-overview-intrepidcs-api/neovi-network-id-list.md) for a list of current network ID’s. \_ **You may also set this parameter to NULL (zero) and the default network ID’s will be used.**\_
 
 bConfigRead
 
@@ -69,7 +69,7 @@ int iRetVal;
 int iCount;
 NeoDevice ndNeoToOpen; //created previously
 
-iRetVal = icsneoOpenNeoDevice(&ndNeoToOpen, &hObject, NULL, 1, 0);
+iRetVal = icsneoOpenDevice(&ndNeoToOpen, &hObject, NULL, 1, 0);
 ```
 {% endtab %}
 
@@ -86,7 +86,7 @@ For iCount = 0 To 255
     bNetwork(iCount) = CByte(iCount)
 Next iCount
 '//Open the first found device, ndNeoToOpen acquired from FindNeoDevices
-iResult = icsneoOpenNeoDevice(ndNeoToOpen(0), m_hObject, bNetwork(0), 1, 0)
+iResult = icsneoOpenDevice(ndNeoToOpen(0), m_hObject, bNetwork(0), 1, 0)
 If CBool(iResult) Then
     MsgBox("Port Opened OK!")
 Else
@@ -110,7 +110,7 @@ for (iCount = 0; iCount < 255; iCount++)
     bNetwork[iCount] = Convert.ToByte(iCount);
 }
 //Open the first found device, ndNeoToOpen acquired from FindNeoDevices
-iResult = icsNeoDll.icsneoOpenNeoDevice(ref ndNeoToOpen, ref m_hObject, ref bNetwork[0], 1, 0);
+iResult = icsNeoDll.icsneoOpenDevice(ref ndNeoToOpen, ref m_hObject, ref bNetwork[0], 1, 0);
 if (iResult == 1)
 {
     MessageBox.Show("Port Opened OK!");
