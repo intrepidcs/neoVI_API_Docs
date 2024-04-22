@@ -9,21 +9,27 @@ This method returns the neoVI hardware devices connected to the PC.
 
 {% tabs %}
 {% tab title="C/C++ Declare" %}
+{% code fullWidth="true" %}
 ```cpp
 int _stdcall icsneoOpenDevice(NeoDevice *pNeoDevice, void * hObject, unsigned char *bNetworkIDs, int bConfigRead, int bSyncToPC);
 ```
+{% endcode %}
 {% endtab %}
 
 {% tab title="Visual Basic .NET Declare" %}
+{% code fullWidth="true" %}
 ```vbnet
 Public Declare Function icsneoOpenDevice Lib “icsneo40.dll” (ByRef pNeoDevice As NeoDevice, ByRef hObject As IntPtr, ByRef bNetworkIDs As Byte, ByVal bConfigRead As Int32, ByVal bSyncToPC As Int32) As Int32
 ```
+{% endcode %}
 {% endtab %}
 
 {% tab title="C# Declare" %}
+{% code fullWidth="true" %}
 ```csharp
 [DllImport(“icsneo40.dll”)] public static extern Int32 icsneoOpenDevice(ref NeoDevice pNeoDevice, ref IntPtr hObject, ref byte bNetworkIDs, Int32 bConfigRead, Int32 bSyncToPC);
 ```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
