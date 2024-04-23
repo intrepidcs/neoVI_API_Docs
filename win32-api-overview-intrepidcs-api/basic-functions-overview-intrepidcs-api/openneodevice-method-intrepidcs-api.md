@@ -11,7 +11,7 @@ This method returns the neoVI hardware devices connected to the PC.
 {% tab title="C/C++ Declare" %}
 {% code fullWidth="true" %}
 ```cpp
-int _stdcall icsneoOpenDevice(NeoDevice *pNeoDevice, void * hObject, unsigned char *bNetworkIDs, int bConfigRead, int bSyncToPC);
+int _stdcall icsneoOpenDevice(NeoDeviceEx* pNeoDeviceEx, void** hObject, unsigned char* bNetworkIDs, int bConfigRead, int iOptions, OptionsOpenNeoEx* stOptionsOpenNeoEx, unsigned long reserved)
 ```
 {% endcode %}
 {% endtab %}
