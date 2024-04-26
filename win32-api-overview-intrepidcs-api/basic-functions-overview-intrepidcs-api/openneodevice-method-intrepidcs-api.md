@@ -11,7 +11,7 @@ This method returns the neoVI hardware devices connected to the PC.
 {% tab title="C/C++ Declare" %}
 {% code fullWidth="true" %}
 ```cpp
-int _stdcall icsneoOpenDevice(NeoDeviceEx* pNeoDeviceEx, void** hObject, unsigned char* bNetworkIDs, int bConfigRead, int iOptions, OptionsOpenNeoEx* stOptionsOpenNeoEx, unsigned long reserved)
+int _stdcall icsneoOpenDevice(NeoDeviceEx* pNeoDeviceEx, void* hObject, unsigned char* bNetworkIDs, int bConfigRead, int iOptions, OptionsOpenNeoEx* stOptionsOpenNeoEx, unsigned long reserved)
 ```
 {% endcode %}
 {% endtab %}
@@ -19,7 +19,7 @@ int _stdcall icsneoOpenDevice(NeoDeviceEx* pNeoDeviceEx, void** hObject, unsigne
 {% tab title="Visual Basic .NET Declare" %}
 {% code fullWidth="true" %}
 ```vbnet
-Public Declare Function icsneoOpenDevice Lib “icsneo40.dll” (ByRef pNeoDevice As NeoDevice, ByRef hObject As IntPtr, ByRef bNetworkIDs As Byte, ByVal bConfigRead As Int32, ByVal bSyncToPC As Int32) As Int32
+Public Declare Function icsneoOpenDevice Lib "icsneo40.dll" (ByRef pNeoDeviceEx As NeoDeviceEx, ByRef hObject As IntPtr, ByRef bNetworkIDs As Byte, ByVal bConfigRead As Int32, ByVal iOptions As Int32, ByRef stOptionsOpenNeoEx As OptionsOpenNeoEx, ByVal Reserved As UInt32) As Int32
 ```
 {% endcode %}
 {% endtab %}
@@ -27,7 +27,7 @@ Public Declare Function icsneoOpenDevice Lib “icsneo40.dll” (ByRef pNeoDevic
 {% tab title="C# Declare" %}
 {% code fullWidth="true" %}
 ```csharp
-[DllImport(“icsneo40.dll”)] public static extern Int32 icsneoOpenDevice(ref NeoDevice pNeoDevice, ref IntPtr hObject, ref byte bNetworkIDs, Int32 bConfigRead, Int32 bSyncToPC);
+[DllImport(“icsneo40.dll”)] public static extern Int32 icsneoOpenDevice(ref NeoDeviceEx pNeoDeviceEx, ref IntPtr hObject, ref byte bNetworkIDs, Int32 bConfigRead, Int32 iOptions,ref OptionsOpenNeoEx stOptionsOpenNeoEx, UInt32 uiReserved);
 ```
 {% endcode %}
 {% endtab %}
