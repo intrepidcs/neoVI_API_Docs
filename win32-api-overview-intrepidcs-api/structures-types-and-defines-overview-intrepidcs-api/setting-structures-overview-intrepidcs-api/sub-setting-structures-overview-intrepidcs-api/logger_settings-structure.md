@@ -42,11 +42,9 @@ public struct LOGGER_SETTINGS
 
 #### Remarks
 
-| Item                                                     | Description                                                                                                                                                                                                 |
-| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| extraction\_timeout                                      | <p>Not Defined</p><table><thead><tr><th>Bit 7</th><th>Bit 6-0</th></tr></thead><tbody><tr><td>1=disable coremini/logging during extraction for timeout</td><td>Timeout in seconds</td></tr></tbody></table> |
-| Bit 7                                                    | Bit 6-0                                                                                                                                                                                                     |
-| 1=disable coremini/logging during extraction for timeout | Timeout in seconds                                                                                                                                                                                          |
-| rsvd0                                                    | Not Defined                                                                                                                                                                                                 |
-| rsvd1                                                    | Not Defined                                                                                                                                                                                                 |
-| rsvd2                                                    | Not Defined                                                                                                                                                                                                 |
+| Item                | Description                                                                                                                                                                                                 |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| extraction\_timeout | <p>Not Defined</p><table><thead><tr><th>Bit 7</th><th>Bit 6-0</th></tr></thead><tbody><tr><td>1=disable coremini/logging during extraction for timeout</td><td>Timeout in seconds</td></tr></tbody></table> |
+| rsvd0               | Not Defined                                                                                                                                                                                                 |
+| rsvd1               | Not Defined                                                                                                                                                                                                 |
+| rsvd2               | Not Defined                                                                                                                                                                                                 |

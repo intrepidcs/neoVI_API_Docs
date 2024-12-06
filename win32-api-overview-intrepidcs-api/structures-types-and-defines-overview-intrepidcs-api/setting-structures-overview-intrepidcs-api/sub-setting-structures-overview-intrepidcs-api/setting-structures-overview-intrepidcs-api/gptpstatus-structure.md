@@ -75,7 +75,6 @@ public struct GPTPStatus
    public byte Reserved6;
    public byte Reserved7;
 }
-
 ```
 {% endtab %}
 {% endtabs %}

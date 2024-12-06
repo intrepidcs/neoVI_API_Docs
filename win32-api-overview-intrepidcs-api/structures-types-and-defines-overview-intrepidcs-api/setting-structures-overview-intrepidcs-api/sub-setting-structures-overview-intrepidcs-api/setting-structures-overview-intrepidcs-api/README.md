@@ -1,10 +1,10 @@
-# Setting Structures Overview - intrepidcs API
+# gPTP Structures
 
-| gPTP Structures                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [GPTPStatus](gptpstatus-structure.md)                                                                              |
-| [gPTPtimestamp](../../../../message-functions-overview-intrepidcs-api/gettimestampformsg-method-intrepidcs-api.md) |
-| [gPTPpriority\_vector](priority\_vector-structure.md)                                                              |
-| [gPTPport\_identity](port\_identity-structure.md)                                                                  |
-| [gPTPclock\_quality](clock\_quality-structure.md)                                                                  |
-| [gPTPsystem\_identity](system\_identity-structure.md)                                                              |
+| gPTP Structures                                      |
+| ---------------------------------------------------- |
+| [GPTPStatus](gptpstatus-structure.md)                |
+| [gPTPtimestamp](timestamp-structure.md)              |
+| [gPTPpriority\_vector](priority_vector-structure.md) |
+| [gPTPport\_identity](port_identity-structure.md)     |
+| [gPTPclock\_quality](clock_quality-structure.md)     |
+| [gPTPsystem\_identity](system_identity-structure.md) |

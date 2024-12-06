@@ -1,6 +1,20 @@
 ---
 cover: ../../../../.gitbook/assets/new-cover-image.png
 coverY: 0
+layout:
+  cover:
+    visible: false
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # STextAPISettings Structure
@@ -97,8 +111,4 @@ public struct STextAPISettings
 | [icscm\_uint32](../intrepid-api-data-types.md) can\_rx\_id      | Sets or Reads the Arbitration ID for Sending Receiving API commands                                                                                                                                                                                                                                                                                         |
 | [icscm\_uint32](../intrepid-api-data-types.md) can\_options     | Sets the length of the Arbitration ID’s. Set to 1 for Extended and 0 for Standard                                                                                                                                                                                                                                                                           |
 | [icscm\_uint32](../intrepid-api-data-types.md) network\_Enables | <p>Bitfield telling which netowrk to support Text API. One one can be enabled at a time.</p><table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>HS CAN : 1</td><td>MS CAN : 2</td></tr><tr><td>HS CAN 2 : 32</td><td>HS CAN 3 : 256</td></tr><tr><td>RS232/UART2 : 4194304</td><td>UART1 : 2097152</td></tr></tbody></table> |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                             |
-| HS CAN : 1                                                      | MS CAN : 2                                                                                                                                                                                                                                                                                                                                                  |
-| HS CAN 2 : 32                                                   | HS CAN 3 : 256                                                                                                                                                                                                                                                                                                                                              |
-| RS232/UART2 : 4194304                                           | UART1 : 2097152                                                                                                                                                                                                                                                                                                                                             |
 | [icscm\_uint32](../intrepid-api-data-types.md) Reserved         | Not used                                                                                                                                                                                                                                                                                                                                                    |
