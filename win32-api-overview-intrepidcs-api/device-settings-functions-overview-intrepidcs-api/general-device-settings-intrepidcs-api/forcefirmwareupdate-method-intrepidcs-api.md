@@ -1,4 +1,4 @@
-# ForceFirmwareUpdate Method - intrepidcs API
+# ForceFirmwareUpdate Method - neoVI API
 
 This method forces the firmware on neoVI device to be updated.
 
@@ -30,7 +30,7 @@ hObject
 
 **Return Values**
 
-None.
+`int`.
 
 **Remarks**
 
